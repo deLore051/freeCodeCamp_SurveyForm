@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Survey</title>
+    </head>
+    <body>
+        <h1 id="title">Survay</h1>
+        <p id="description">Thank you for taking the time to complete the survay and help us improve our services.</p>
+        <form id="survey-form">
+            <div class="name-field">
+                <label for="name" id="name-label">*Name:</label>
+                <input type="text" id="name" placeholder="Name [required]" required> 
+            </div> <br/>
+
+            <div class="email-field">
+                <label for="email" id="email-label">*Email:</label>
+                <input type="email" id="email" placeholder="Email [required]" required>
+            </div> <br/>
+
+            <div class="number-field">
+                <label for="Age" id="number-label">Age:</label>
+                <input type="number" id="number" min="18" max="99" placeholder="Age [optional]">
+            </div> <br/>
+
+            <div class="dropdown-box">
+                <label for="dropdown-box" id="dropdown-box-label">Chose the product category you liked the most:</label> <br/>
+                <select name="category" id="dropdown">
+                    <option value="jewlery">Jewlery</option>
+                    <option value="watches">Watches</option>
+                    <option value="jewlery-box">Jewlery box</option>
+                    <option value="other">Other</option>
+                </select>
+            </div> <br/>
+
+            <div class="radio-buttons">
+                <label for="radio-buttons" id="radio-buttons-label">Select the subcategory you liked the most:</label> <br/>
+                <input type="radio" id="mans-jewlery" name="subcategory-liked" value="mans-jewlery">
+                <label for="mans-jewlery">Mens jewlery</label> <br/>
+                <input type="radio" id="womans-jewlery" name="subcategory-liked" value="womans-jewlery">
+                <label for="womans-jewlery">Womans jewlery</label> <br/>
+                <input type="radio" id="mans-watches" name="subcategory-liked" value="mans-watches">
+                <label for="mans-watches">Mens watches</label> <br/>
+                <input type="radio" id="womans-watches" name="subcategory-liked" value="womans-watches">
+                <label for="womans-watches">Womans watches</label> <br/>
+                <input type="radio" id="wooden-jewlery-boxes" name="subcategory-liked" value="wooden-jewlery-boxes">
+                <label for="wooden-jewlery-boxes">Wooden jewlery boxes</label> <br/>
+                <input type="radio" id="plastic-jewlery-boxes" name="subcategory-liked" value="plastic-jewlery-boxes">
+                <label for="plastic-jewlery-boxes">Plastic jewlery boxes</label> <br/>
+            </div> <br/>
+
+            <div class="checkboxes">
+                <label for="checkboxes" id="checkboxes-label">Select the are of the site that you think we should improve:</label> <br/>
+                <input type="checkbox" name="check-to-improve" id="user-interface" value="user-interface">
+                <label for="user-interface">User-interface</label> <br/>
+                <input type="checkbox" name="check-to-improve" id="menu-section" value="menu-section">
+                <label for="menu-section">Menu section</label> <br/>
+                <input type="checkbox" name="check-to-improve" id="product-quality" value="product-quality">
+                <label for="product-quality">Product quality</label> <br/>
+                <input type="checkbox" name="check-to-improve" id="product-prices" value="product-prices">
+                <label for="product-prices">Product prices</label> <br/>
+            </div> <br/>
+            
+            <div class="textarea">
+                <label for="textarea" id="textarea-label">Additional comments:</label> <br/>
+                <textarea name="textarea" id="textarea" cols="50" rows="10"></textarea>
+            </div> <br/>
+
+            <div class="submit-button">
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div> <br/>
+        </form>
+    </body>
+</html>

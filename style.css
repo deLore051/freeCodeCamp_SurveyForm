@@ -1,0 +1,159 @@
+html  {
+    font-size: 10px;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Gato', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 10rem 0 10rem;
+}
+
+#title {
+    font-size: 5rem;
+    text-align: center;
+    color: #252222;
+}
+
+#description {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #252222;
+}
+
+#survey-form {
+    background-color: lightgray;
+    border-radius: 100px;
+    padding: 5rem 10rem 5rem 10rem; 
+}
+
+#name {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+#email {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+#number {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+#textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+label {
+    font-size: 2.4rem;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+#submit {
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-radius: 75px;
+}
+
+#submit:hover {
+    background-color: lightslategray;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+    	font-size: 1.4rem;
+    	line-height: 1.2;
+    	margin: 1rem;
+	}
+
+	#title {
+      font-size: 3rem;
+	}
+
+    #description {
+      font-size: 1.5rem;
+    }
+
+    #survey-form {
+      border-radius: 30px;
+      padding: 4rem 4rem 4rem 2rem; 
+    }
+    
+    #name {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 2rem;
+      font-size: 1.6rem;
+	}
+
+    #email {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 2rem;
+      font-size: 1.6rem;
+    }
+
+    #number {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 2rem;
+      font-size: 1.6rem;
+    }
+
+    #dropdown {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 2rem;
+      font-size: 1.6rem;
+    }
+
+    #textarea {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 2rem;
+      font-size: 1.6rem;
+    }
+
+    label {
+      font-size: 1.8rem;
+    }
+
+    .submit-button {
+      text-align: center;
+    }
+
+    #submit {
+      width: 50%;
+      height: auto;
+      padding: 1.5rem;
+      font-size: 2rem;
+      font-weight: 600;
+      border-radius: 75px;
+    }
+
+}
